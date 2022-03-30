@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.7.0/dist/tf.min.js"></script>
+        <script src="js/video.js"></script>
+    </head>
+    <body>
+        <select>
+            <option value="green">Green Background</option>
+            <option value="xingkong">xingkong Background</option>
+        </select>
+        <br>
+        <div style="display: flex">
+            <video></video>
+            <div style="position: relative">
+                <canvas></canvas>
+                <div id="bg" style="position: absolute; top: 0; left: 0; z-index: -1; width: 640px; height: 480px"></div>
+            </div>
+        </div>
+    </body>
+</html>
